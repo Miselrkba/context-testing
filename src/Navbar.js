@@ -9,6 +9,7 @@ import {
   withStyles,
   InputBase,
 } from "@material-ui/core";
+import SearchIcon from "@material-ui/icons/Search";
 import styles from "./styles/NavBarStyles";
 
 class Navbar extends Component {
@@ -30,7 +31,7 @@ class Navbar extends Component {
             <div className={classes.grow}></div>
             <div className={classes.search}>
               <div className={classes.searchIcon}>
-                <searchIcon />
+                <SearchIcon />
               </div>
               <InputBase
                 placeholder="Search..."
